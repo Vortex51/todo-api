@@ -37,8 +37,8 @@ class TodoSchema(ma.Schema):
     class Meta:
         fields = ('id', 'name', 'desc', 'cat', 'due', 'active')
 #Init Schema
-todos_schema = TodoSchema(strict = True, many = True)
-todo_schema = TodoSchema(strict = True)
+todos_schema = TodoSchema(many = True)
+todo_schema = TodoSchema()
 
 #Create Todo
 @app.route('/todo', methods=['POST'])
