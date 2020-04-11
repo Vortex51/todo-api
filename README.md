@@ -1,7 +1,7 @@
 # Todo
 My Implemenation of a Todo List by creating my own API
 
-This will use Python/Flask as a backend web server and MYSQL for database intergration. &#9745;
+This will use Python/Flask as a backend web server and SQLite for database intergration. &#9745;
 
 This will then later connect to a Vue.JS front end.
 
